@@ -71,3 +71,5 @@ terraform apply
 ## Cleanup
 
 After completing the learning exercise, I cleaned up resources using: terraform destroy
+
+[Watch Loom Video](https://www.loom.com/share/05a4a9c3e2934dd8b2466eb054b8dd80)
