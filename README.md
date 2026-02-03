@@ -28,6 +28,14 @@ This helped me understand the VM configuration options before moving to automati
 
 This step gave me clarity on VM lifecycle, machine types, regions, and disk choices.
 
+### Screenshots – Manual VM Creation
+
+![Manual VM Creation Step 1](assets/SS1.png)
+![Manual VM Creation Step 2](assets/ss2.png)
+![Manual VM Creation Step 3](assets/ss3.png)
+![Manual VM Creation Step 4](assets/ss4.png)
+![Manual VM Creation Step 5](assets/ss5.png)
+![Manual VM Creation Step 5](assets/vscode.png)
 ## Part 2: Provisioning the Same VM Using Terraform
 
 After understanding the manual process, I used Terraform to automate the creation of a Compute Engine VM.
@@ -55,6 +63,10 @@ terraform init
 terraform validate
 terraform plan
 terraform apply
+
+### Screenshot – VM Launched Using Terraform
+
+![VM launched using Terraform](assets/vm-launched-using-terraform.png)
 
 ## Cleanup
 
